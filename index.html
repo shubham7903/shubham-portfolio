@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shubham Kumar — Software Developer &amp; DevOps Engineer</title>
+<meta name="description" content="Shubham Kumar — Software Developer & DevOps Engineer. AWS, Docker, Kubernetes, Terraform, Jenkins, React, Node.js.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Background grid -->
+<div class="blueprint-grid" aria-hidden="true"></div>
+
+<!-- Pipeline rail (signature element) -->
+<nav class="pipeline-rail" aria-label="Page sections">
+  <div class="rail-track">
+    <div class="rail-progress" id="railProgress"></div>
+  </div>
+  <ul class="rail-stages">
+    <li data-target="source" class="rail-stage active">
+      <span class="rail-dot"></span><span class="rail-label">SOURCE</span>
+    </li>
+    <li data-target="build" class="rail-stage">
+      <span class="rail-dot"></span><span class="rail-label">BUILD</span>
+    </li>
+    <li data-target="test" class="rail-stage">
+      <span class="rail-dot"></span><span class="rail-label">TEST</span>
+    </li>
+    <li data-target="deploy" class="rail-stage">
+      <span class="rail-dot"></span><span class="rail-label">DEPLOY</span>
+    </li>
+    <li data-target="monitor" class="rail-stage">
+      <span class="rail-dot"></span><span class="rail-label">MONITOR</span>
+    </li>
+  </ul>
+</nav>
+
+<!-- Mobile pipeline indicator -->
+<div class="mobile-rail" id="mobileRail">SOURCE</div>
+
+<button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+  <span></span><span></span><span></span>
+</button>
+
+<main>
+
+  <!-- ===================== HERO / SOURCE ===================== -->
+  <section id="source" class="sheet hero-sheet">
+    <div class="sheet-frame">
+      <span class="corner corner-tl"></span><span class="corner corner-tr"></span>
+      <span class="corner corner-bl"></span><span class="corner corner-br"></span>
+
+      <div class="sheet-header">
+        <span class="eyebrow">// SYS.SCHEMATIC</span>
+        <span class="eyebrow">REV 2026.08</span>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-kicker">Software Developer &amp; DevOps Engineer</p>
+        <h1 class="hero-name">Shubham<br>Kumar</h1>
+        <p class="hero-line" id="heroTyping"></p>
+        <p class="hero-desc">
+          I design, ship and operate full-stack platforms — then build the pipelines,
+          containers and monitoring that keep them alive in production.
+          Currently deploying at <strong>GoToAdmission.com</strong>.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#deploy" class="btn btn-primary">View Projects</a>
+          <a href="#monitor" class="btn btn-ghost">Get in Touch</a>
+          <a href="assets/Shubham_Kumar_Resume.pdf" class="btn btn-ghost" download>Download Résumé</a>
+        </div>
+
+        <div class="hero-meta">
+          <span>Faridabad, Haryana</span>
+          <span class="dot-sep">·</span>
+          <span>Open to Relocate</span>
+          <span class="dot-sep">·</span>
+          <span class="status-live"><i></i>Available for opportunities</span>
+        </div>
+      </div>
+
+      <div class="sheet-footer title-block">
+        <div class="tb-cell"><span>DRAWN BY</span><strong>S. KUMAR</strong></div>
+        <div class="tb-cell"><span>SCALE</span><strong>1 : 1</strong></div>
+        <div class="tb-cell"><span>STATUS</span><strong class="tb-status">DEPLOYED</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT + SKILLS / BUILD ===================== -->
+  <section id="build" class="sheet">
+    <div class="sheet-frame">
+      <span class="corner corner-tl"></span><span class="corner corner-tr"></span>
+      <span class="corner corner-bl"></span><span class="corner corner-br"></span>
+
+      <div class="sheet-header">
+        <span class="eyebrow">// STAGE 02</span>
+        <span class="eyebrow">BUILD — DEPENDENCIES RESOLVED</span>
+      </div>
+
+      <h2 class="section-title reveal">Build Manifest</h2>
+      <p class="section-sub reveal">
+        Software Developer and DevOps Engineer with over a year of hands-on experience building and deploying
+        production web platforms, automating cloud infrastructure and CI/CD pipelines. Track record spans
+        multi-project web applications, university ERP maintenance and database infrastructure, AWS hosting
+        and scaling, and Docker containerization for reliable, consistent releases.
+      </p>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <span class="skill-tag">01</span>
+          <h3>Cloud &amp; Infra as Code</h3>
+          <ul><li>AWS</li><li>GCP</li><li>Terraform</li><li>CloudFormation</li></ul>
+        </div>
+        <div class="skill-card reveal">
+          <span class="skill-tag">02</span>
+          <h3>Containers &amp; Orchestration</h3>
+          <ul><li>Docker</li><li>Kubernetes</li><li>ECS / EKS / GKE</li><li>Helm Charts</li></ul>
+        </div>
+        <div class="skill-card reveal">
+          <span class="skill-tag">03</span>
+          <h3>CI/CD &amp; Automation</h3>
+          <ul><li>Jenkins</li><li>GitHub Actions</li><li>Ansible</li><li>Bash</li><li>Python</li></ul>
+        </div>
+        <div class="skill-card reveal">
+          <span class="skill-tag">04</span>
+          <h3>Monitoring &amp; Ops</h3>
+          <ul><li>Prometheus</li><li>Grafana</li><li>CloudWatch</li><li>K8sGPT</li></ul>
+        </div>
+        <div class="skill-card reveal">
+          <span class="skill-tag">05</span>
+          <h3>Full-Stack Web</h3>
+          <ul><li>React / Tailwind</li><li>Node.js / Express</li><li>MERN Stack</li><li>HTML / CSS / JS</li></ul>
+        </div>
+        <div class="skill-card reveal">
+          <span class="skill-tag">06</span>
+          <h3>Data &amp; Version Control</h3>
+          <ul><li>MySQL</li><li>Amazon Aurora</li><li>MongoDB</li><li>Git / GitHub</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE / TEST ===================== -->
+  <section id="test" class="sheet">
+    <div class="sheet-frame">
+      <span class="corner corner-tl"></span><span class="corner corner-tr"></span>
+      <span class="corner corner-bl"></span><span class="corner corner-br"></span>
+
+      <div class="sheet-header">
+        <span class="eyebrow">// STAGE 03</span>
+        <span class="eyebrow">TEST — VALIDATED IN PRODUCTION</span>
+      </div>
+
+      <h2 class="section-title reveal">Experience Log</h2>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-body">
+            <div class="timeline-head">
+              <h3>Software Developer</h3>
+              <span class="timeline-date">Aug 2025 — Present</span>
+            </div>
+            <p class="timeline-org">GoToAdmission.com Private Limited</p>
+            <ul>
+              <li>Architected and built multiple full-stack production sites — apnanoida.com, apnabareilly.com, gotoplacements.com, treefoundations.co.in — with React frontends and Node.js/Express REST APIs.</li>
+              <li>Designed responsive, component-based UIs with dynamic listing pages, validated forms, and live weather widget integrations.</li>
+              <li>Maintained and enhanced a React-based ERP system for Metro University, managing data storage/retrieval on AWS S3.</li>
+              <li>Containerized ERP releases with Docker and managed the MySQL database on AWS — query optimization, indexing, backup &amp; restore.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-body">
+            <div class="timeline-head">
+              <h3>DevOps Intern</h3>
+              <span class="timeline-date">Mar 2025 — Jun 2025</span>
+            </div>
+            <p class="timeline-org">High Catch Private Limited, Bengaluru</p>
+            <ul>
+              <li>Designed and maintained scalable AWS infrastructure using Terraform and CloudFormation with reusable, version-controlled modules.</li>
+              <li>Built and optimized Jenkins CI/CD pipelines to increase deployment frequency and reduce manual release effort.</li>
+              <li>Implemented Prometheus and Grafana dashboards for real-time production monitoring.</li>
+              <li>Streamlined containerization and orchestration with Docker and Kubernetes; automated provisioning with Ansible.</li>
+            </ul>
+            <p class="timeline-env"><strong>Environment:</strong> Python · Jenkins · Docker · Kubernetes · Helm · Terraform · AWS · Ansible · Prometheus · Grafana · K8sGPT</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="education-block reveal">
+        <h3 class="sub-title">Education</h3>
+        <div class="edu-row">
+          <div><strong>MCA</strong> — Punjab Technical University <span class="edu-meta">CGPA 7.93 · 2024</span></div>
+          <div><strong>B.Sc. Mathematics</strong> — Kalinga University <span class="edu-meta">68% · 2021</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS / DEPLOY ===================== -->
+  <section id="deploy" class="sheet">
+    <div class="sheet-frame">
+      <span class="corner corner-tl"></span><span class="corner corner-tr"></span>
+      <span class="corner corner-bl"></span><span class="corner corner-br"></span>
+
+      <div class="sheet-header">
+        <span class="eyebrow">// STAGE 04</span>
+        <span class="eyebrow">DEPLOY — SHIPPED TO PRODUCTION</span>
+      </div>
+
+      <h2 class="section-title reveal">Project Releases</h2>
+
+      <div class="projects-grid">
+        
+
+        <article class="project-card reveal">
+          <span class="corner corner-tl"></span><span class="corner corner-br"></span>
+          <div class="project-top">
+            <span class="project-tag">DevOps · FinTech</span>
+            <span class="build-badge">build passing</span>
+          </div>
+          <h3>FinanceMe</h3>
+          <p class="project-desc">DevOps implementation for a banking platform, built for compliance-grade reliability.</p>
+          <ul>
+            <li>Modular Terraform with remote state across dev, staging, production.</li>
+            <li>Jenkins pipelines with automated test gates and rollback triggers.</li>
+            <li>Least-privilege IAM roles and centralized secrets management.</li>
+            <li>Prometheus/Grafana alerting for transaction-critical services.</li>
+          </ul>
+          <a href="https://github.com/shubham7903/FinanceMe-Banking-project" class="project-link" target="_blank" rel="noopener">View source →</a>
+        </article>
+
+        <article class="project-card reveal">
+          <span class="corner corner-tl"></span><span class="corner corner-br"></span>
+          <div class="project-top">
+            <span class="project-tag">DevOps · InsurTech</span>
+            <span class="build-badge">build passing</span>
+          </div>
+          <h3>InsureMe</h3>
+          <p class="project-desc">Cloud optimization and security hardening for an insurance platform.</p>
+          <ul>
+            <li>Multi-cloud resource optimization with Terraform to cut infra cost.</li>
+            <li>Kubernetes migration via Helm charts for deployment consistency.</li>
+            <li>Autoscaling policies to absorb traffic spikes.</li>
+            <li>Staged-rollout Jenkins pipelines to shorten release cycles.</li>
+          </ul>
+          <a href="https://github.com/shubham7903/InsureMe-insurance-project" class="project-link" target="_blank" rel="noopener">View source →</a>
+        </article>
+
+        <article class="project-card reveal">
+          <span class="corner corner-tl"></span><span class="corner corner-br"></span>
+          <div class="project-top">
+            <span class="project-tag">DevOps · HealthTech</span>
+            <span class="build-badge">build passing</span>
+          </div>
+          <h3>Medicure</h3>
+          <p class="project-desc">HIPAA-aware infrastructure and DR planning for a healthcare compliance platform.</p>
+          <ul>
+            <li>Terraform infrastructure with encryption at rest and in transit.</li>
+            <li>Kubernetes deployment for scalability and faster releases.</li>
+            <li>Disaster recovery plan with automated backups.</li>
+            <li>Automated regression testing with Bash and Jenkins.</li>
+          </ul>
+          <a href="https://github.com/shubham7903/Medicure-health-care" class="project-link" target="_blank" rel="noopener">View source →</a>
+        </article>
+
+        <article class="project-card reveal">
+          <span class="corner corner-tl"></span><span class="corner corner-br"></span>
+          <div class="project-top">
+            <span class="project-tag">Full-Stack · MERN</span>
+            <span class="build-badge">build passing</span>
+          </div>
+          <h3>PulseBoard</h3>
+          <p class="project-desc">A full-stack service-monitoring platform — uptime tracking and a deployment changelog in one dashboard, like a lightweight UptimeRobot with built-in release history.</p>
+          <ul>
+            <li>JWT auth with protected routes; add any URL and tag it by environment (prod/staging/dev).</li>
+            <li>node-cron job auto-pings every service on a schedule, logging status and response time — plus an on-demand "Check now".</li>
+            <li>Live dashboard with UP/DOWN badges, uptime %, and a response-time line chart per service.</li>
+            <li>Deployment log to record version + notes per release, so incidents can be correlated with deploys.</li>
+            <li>Dockerized backend, frontend and MongoDB via docker-compose; GitHub Actions CI builds/tests both apps and the Docker images on every push.</li>
+          </ul>
+          <a href="https://github.com/shubham7903/pulseboard" class="project-link" target="_blank" rel="noopener">View source →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CERTIFICATES + CONTACT / MONITOR ===================== -->
+  <section id="monitor" class="sheet">
+    <div class="sheet-frame">
+      <span class="corner corner-tl"></span><span class="corner corner-tr"></span>
+      <span class="corner corner-bl"></span><span class="corner corner-br"></span>
+
+      <div class="sheet-header">
+        <span class="eyebrow">// STAGE 05</span>
+        <span class="eyebrow">MONITOR — CREDENTIALS VERIFIED</span>
+      </div>
+
+      <h2 class="section-title reveal">Certifications</h2>
+
+      <div class="certs-grid">
+        <div class="cert-card reveal">
+          <div class="cert-icon">✓</div>
+          <h3>DevOps Engineer</h3>
+          <p class="cert-issuer">StarAgile</p>
+          <p class="cert-date">Issued Jun 2025 · Code 190620258071</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">✓</div>
+          <h3>Web Development Training</h3>
+          <p class="cert-issuer">A2IT Pvt. Ltd.</p>
+          <p class="cert-date">Jun 2023 — Aug 2023</p>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-icon">✓</div>
+          <h3>Data Analytics &amp; Visualization</h3>
+          <p class="cert-issuer">Accenture · Job Simulation (Forage)</p>
+          <p class="cert-date">Issued Mar 2024</p>
+        </div>
+      </div>
+
+      <div class="contact-block reveal">
+        <h2 class="section-title">Open a Channel</h2>
+        <p class="section-sub">
+          Looking for a Full-Stack or DevOps engineer who can own a system end to end —
+          from the React component to the cluster it runs on? Let's talk.
+        </p>
+
+        <div class="contact-grid">
+          <a class="contact-item" href="mailto:shubham.kumarjuly@gmail.com">
+            <span class="contact-label">EMAIL</span>
+            <span class="contact-value">shubham.kumarjuly@gmail.com</span>
+          </a>
+          <a class="contact-item" href="tel:+917903609590">
+            <span class="contact-label">PHONE</span>
+            <span class="contact-value">+91 79036 09590</span>
+          </a>
+          <a class="contact-item" href="https://linkedin.com/in/shubham-kumar97" target="_blank" rel="noopener">
+            <span class="contact-label">LINKEDIN</span>
+            <span class="contact-value">/in/shubham-kumar97</span>
+          </a>
+          <a class="contact-item" href="https://github.com/shubham7903" target="_blank" rel="noopener">
+            <span class="contact-label">GITHUB</span>
+            <span class="contact-value">@shubham7903</span>
+          </a>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+          </div>
+          <textarea name="message" rows="4" placeholder="What are you building?" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+
+      <footer class="site-footer">
+        <span>© 2026 Shubham Kumar</span>
+        <span class="dot-sep">·</span>
+        <span>Built with HTML, CSS &amp; vanilla JS — no framework overhead</span>
+      </footer>
+    </div>
+  </section>
+
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
